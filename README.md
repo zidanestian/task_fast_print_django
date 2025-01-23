@@ -31,26 +31,26 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi ini:
 
 1. **Clone Repository**
 
-   Clone repository ini ke dalam direktori lokal Anda:
+   - Clone repository ini ke dalam direktori lokal Anda:
    
-   git clone https://github.com/zidanestian/task_fast_print_django.git
-   cd task_fast_print_django
+   - git clone https://github.com/zidanestian/task_fast_print_django.git
+   - cd task_fast_print_django
 
 2. **Konfigurasi Database**
 
-    Konfigurasi database pada file ./task_fast_print/settings.py
-    Ubah bagian your_username dengan username database anda dan your_password dengan password database anda
+    - Konfigurasi database pada file ./task_fast_print/settings.py
+    - Ubah bagian your_username dengan username database anda dan your_password dengan password database anda
     
 3. **Jalankan Migration atau Import Database**
 
-    Terdapat 2 cara untuk membuat table pada database
-        1. Migration
-            A. buat database dengan nama db_task_fast_print
-            B. jalankan pada cli 
-                cd task_fast_print
-                python manage.py migrate
-        2. Import Database
-            A. Import file db_task_fast_print.sql pada database anda (file berada pada root project)
+    - Terdapat 2 cara untuk membuat table pada database
+        - 1. Migration
+            - A. buat database dengan nama db_task_fast_print
+            - B. jalankan pada cli 
+                 - cd task_fast_print
+                 - python manage.py migrate
+        - 2. Import Database
+            - A. Import file db_task_fast_print.sql pada database anda (file berada pada root project)
 
 4. **Jalankan AplikasiI**
 
